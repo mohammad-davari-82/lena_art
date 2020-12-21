@@ -20,7 +20,8 @@ body {margin:0;}
 }
 
 .icon-bar a:hover {
-  background-color: #000;
+  background-color: white;
+  color: salmon;
 }
 
 .active {
