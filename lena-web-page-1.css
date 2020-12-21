@@ -2,7 +2,7 @@ body {margin:0;}
 
 .icon-bar {
   width: 100%;
-  background-color: salmon;
+  background-color: white;
   overflow: auto;
   top: 89%;
   position: fixed;
@@ -15,13 +15,13 @@ body {margin:0;}
   text-align: center;
   padding: 12px 0;
   transition: all 0.3s ease;
-  color: white;
+  color: salmon;
   font-size: 36px;
 }
 
 .icon-bar a:hover {
-  background-color: white;
-  color: salmon;
+  background-color: salmon;
+  color: white;
 }
 
 .active {
