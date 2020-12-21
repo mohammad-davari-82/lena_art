@@ -4,19 +4,23 @@ body {margin:0;}
   width: 100%;
   background-color: white;
   overflow: auto;
-  top: 89%;
   position: fixed;
   float:right;
+}
+
+.icon-bar i p {
+  font-size: 10px;
+  direction: rtl;
 }
 
 .icon-bar a {
   float: right;
   width: 25%;
   text-align: center;
-  padding: 12px 0;
+  padding: 20px 0;
   transition: all 0.3s ease;
   color: salmon;
-  font-size: 36px;
+  font-size: 25px;
 }
 
 .icon-bar a:hover {
