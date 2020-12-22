@@ -1,25 +1,25 @@
 body {margin:0;}
 
 .icon-bar {
-  width: 100%;
-  background-color:white;
-  overflow: auto;
-  position: fixed;
-  top: 89%;
-  z-index: 99999999999999999999999;
+    width: 100%;
+    background-color:white;
+    overflow: auto;
+    position: fixed;
+    top: 89%;
+    z-index: 99999999999999999999999;
 }
 
 .icon-bar a {
-  float: right;
-  width: 25%;
-  text-align: center;
-  padding: 12px 0;
-  transition: all 0.3s ease;
-  color:salmon;
-  font-size: 36px;
+    float: right;
+    width: 25%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color:salmon;
+    font-size: 36px;
 }
 
 .icon-bar a:hover {
-  background-color:salmon;
-  color: white;
+    background-color:salmon;
+    color: white;
 }
