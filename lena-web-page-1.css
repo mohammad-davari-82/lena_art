@@ -5,7 +5,7 @@ body {margin:0;}
     background-color:white;
     overflow: auto;
     position: fixed;
-    top: 87.3%;
+    top: 90%;
     z-index: 99999999999999999999999;
 }
 
@@ -13,23 +13,26 @@ body {margin:0;}
     float: right;
     width: 25%;
     text-align: center;
-    padding: 12px 0;
+    padding: 10px 0;
     transition: all 0.3s ease;
     color:salmon;
-    font-size: 25px;
-    border-radius: 20px;
+    font-size: 17px;
+    
     
 }
 .icon-bar p {
-    font-size: 17px;
+    font-size: 15px;
     margin-top: 5px;
+}
+.icon-bar i {
+  margin-top: 8px;
 }
 
 
 .icon-bar a:hover {
     background-color:salmon;
     color: white;
-    font-size: 30px;
+    
 }
 #loader {
     position: absolute;
