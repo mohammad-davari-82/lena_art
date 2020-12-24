@@ -32,6 +32,7 @@ body {margin:0;}
 .icon-bar a:hover {
     background-color:salmon;
     color: white;
+    font-size: x-large;
     
 }
 #loader {
@@ -80,3 +81,7 @@ body {margin:0;}
   display: none;
   text-align: center;
 } 
+
+#cards-row {
+  margin: 5%;
+}
