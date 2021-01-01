@@ -5,7 +5,7 @@ body {margin:0;}
     background-color:white;
     overflow: auto;
     position: fixed;
-    top: 90%;
+    top: 90.5%;
     z-index: 99999999999999999999999;
 }
 
@@ -13,16 +13,11 @@ body {margin:0;}
     float: right;
     width: 25%;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     transition: all 0.3s ease;
     color:salmon;
-    font-size: 17px;
-    
-    
-}
-.icon-bar p {
-    font-size: 15px;
-    margin-top: 5px;
+    font-size: 25px;
+   
 }
 .icon-bar i {
   margin-top: 8px;
@@ -32,7 +27,7 @@ body {margin:0;}
 .icon-bar a:hover {
     background-color:salmon;
     color: white;
-    font-size: x-large;
+    font-size: 27px;
     
 }
 #loader {
@@ -48,40 +43,63 @@ body {margin:0;}
     border-top: 16px solid salmon;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
-  }
+}
   
-  @-webkit-keyframes spin {
+@-webkit-keyframes spin {
     0% { -webkit-transform: rotate(0deg); }
     100% { -webkit-transform: rotate(360deg); }
-  }
+}
   
-  @keyframes spin {
+@keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-  }
-  .animate-bottom {
-  position: relative;
-  -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
-  animation-name: animatebottom;
-  animation-duration: 1s
+}
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
 }
 
 @-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
-  to { bottom:0px; opacity:1 }
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
 }
 
 @keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
 }
 
-#myDiv {
-  display: none;
-  text-align: center;
+#loading {
+    display: none;
+    text-align: center;
 } 
 
 #cards-row {
-  margin: 5%;
+    margin: 5%;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid salmon;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('search-icon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    color: white;
+}
+
+input[type=text]:focus {
+    width: 100%;
+    background-color: salmon;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
 }

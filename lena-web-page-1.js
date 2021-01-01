@@ -6,7 +6,7 @@ var myVar;
             
             function showPage() {
               document.getElementById("loader").style.display = "none";
-              document.getElementById("myDiv").style.display = "block";
+              document.getElementById("loading").style.display = "block";
             }
             var header = document.getElementById("icon-bar");
 var btns = header.getElementsByClassName("bt");
