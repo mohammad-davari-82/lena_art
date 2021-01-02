@@ -78,7 +78,7 @@ body {margin:0;}
 } 
 
 #cards-row {
-    margin: 5%;
+    margin: 3%;
 }
 
 input[type=text] {
@@ -103,3 +103,13 @@ input[type=text]:focus {
     color: white;
     border: 2px solid rgb(255, 255, 255);
 }
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: salmon;
+  }
+  
+  ::selection {
+    color: white;
+    background: salmon;
+  }
