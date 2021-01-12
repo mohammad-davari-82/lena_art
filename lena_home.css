@@ -1,4 +1,6 @@
-body {margin:0;}
+body {
+    margin:0;
+}
 
 .icon-bar {
     width: 100%;
@@ -15,21 +17,20 @@ body {margin:0;}
     text-align: center;
     padding: 20px 0;
     transition: all 0.3s ease;
-    color:salmon;
+    color: #f2889f;
     font-size: 25px;
-   
-}
-.icon-bar i {
-  margin-top: 8px;
 }
 
+.icon-bar i {
+    margin-top: 8px;
+}
 
 .icon-bar a:hover {
-    background-color:salmon;
+    background-color:#f2889f;
     color: white;
     font-size: 27px;
-    
 }
+
 #loader {
     position: absolute;
     left: 50%;
@@ -40,16 +41,16 @@ body {margin:0;}
     margin: -76px 0 0 -76px;
     border: 16px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 16px solid salmon;
+    border-top: 16px solid #f2889f;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
-  
+
 @-webkit-keyframes spin {
     0% { -webkit-transform: rotate(0deg); }
     100% { -webkit-transform: rotate(360deg); }
 }
-  
+
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
@@ -81,83 +82,18 @@ body {margin:0;}
     margin: 3%;
 }
 
-.search {
-  display: table;
-}
-.search input {
-  background: none;
-  border: none;
-  outline: none;
-  width: 50px;
-  min-width: 0;
-  padding: 0;
-  z-index: 1;
-  position: relative;
-  line-height: 18px;
-  margin: 5px 0;
-  font-size: 15px;
-  -webkit-appearance: none;
-  font-family: "Mukta Malar";
-  transition: all 0.6s ease;
-  cursor: pointer;
-  color: salmon;
-}
-.search input + div {
-  position: relative;
-  height: 28px;
-  width: 100%;
-  margin: -28px 0 0 0;
-}
-.search input + div svg {
-  display: block;
-  position: absolute;
-  height: 28px;
-  width: 160px;
-  right: 0;
-  top: 0;
-  fill: none;
-  stroke: salmon;
-  stroke-width: 1.5px;
-  stroke-dashoffset: 271.908;
-  stroke-dasharray: 59 212.908;
-  transition: all 0.6s ease;
-}
-.search input:not(:-moz-placeholder-shown) {
-  width: 160px;
-  padding: 0 4px;
-  cursor: text;
-}
-.search input:not(:-ms-input-placeholder) {
-  width: 160px;
-  padding: 0 4px;
-  cursor: text;
-}
-.search input:not(:placeholder-shown), .search input:focus {
-  width: 160px;
-  padding: 0 4px;
-  cursor: text;
-}
-.search input:not(:-moz-placeholder-shown) + div svg {
-  stroke-dasharray: 150 212.908;
-  stroke-dashoffset: 300;
-}
-.search input:not(:-ms-input-placeholder) + div svg {
-  stroke-dasharray: 150 212.908;
-  stroke-dashoffset: 300;
-}
-.search input:not(:placeholder-shown) + div svg, .search input:focus + div svg {
-  stroke-dasharray: 150 212.908;
-  stroke-dashoffset: 300;
-}
-
-
-
 ::-moz-selection {
     color: white;
-    background: salmon;
-  }
-  
-  ::selection {
+    background: #f2889f;
+}
+
+::selection {
     color: white;
-    background: salmon;
-  }
+    background: #f2889f;
+}
+
+#logo {
+    margin: 0;
+    width: 100%; 
+    height: 1%;
+}
