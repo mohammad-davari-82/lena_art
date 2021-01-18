@@ -1,13 +1,3 @@
-@font-face {
-    font-family: iran;
-    src: url(fonts/IRANSans_UltraLight.ttf);
-}
-
-* {
-    scroll-behavior: smooth;
-    font-family: iran;
-}
-
 .icon-bar {
     width: 100%;
     background-color: white;
@@ -262,8 +252,8 @@
 
 #snackbar {
     visibility: hidden;
-    width: 350px;
-    margin-left: -175px;
+    min-width: 250px;
+    margin-left: -125px;
     background-color: #f2889f;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -324,16 +314,4 @@
         top: 0;
         opacity: 0;
     }
-}
-
-.top-hed {
-    text-align: center;
-    /* margin-right: 20PX; */
-    border: 2px solid #f2889f;
-    margin-top: 25px;
-    border-radius: 50px 0px 50px 0px;
-    font-size: 20px;
-    font-style: bold;
-    color: white;
-    background-color: #f2889f;
 }
